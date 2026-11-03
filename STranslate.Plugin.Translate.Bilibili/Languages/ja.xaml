@@ -1,0 +1,36 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_PromptNotConfigured">先に Prompt 設定を完了してください。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_NoTextOutput">API からテキストが返されませんでした。</sys:String>
+
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateEditorTitle">翻訳テンプレートを編集</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateManage">管理</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateListHeader">翻訳テンプレート</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateListDescription">編集するテンプレートを選択します。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNew">新規</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateCopy">複製</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateDelete">削除</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNameHeader">テンプレート名</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNameDescription">テンプレートの選択とメイン画面での切り替えに使用します。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_InstructionHeader">翻訳要件</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_InstructionDescription">各行は任意の要件で、公式形式の「注意」制約に変換されます。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryHeader">用語集</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryDescription">用語の固定訳を指定します。公式形式ではハード制約として送信されます。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryHint">この表は用語対応のみに使用してください。口調や書式などは「翻訳要件」に入力します。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossarySource">原文用語</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryTarget">指定訳</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryAdd">用語を追加</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryRemove">削除</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateSetActive">このテンプレートを使用</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNewName">新しいテンプレート</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateRequired">翻訳テンプレートを少なくとも 1 つ残してください。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNameRequired">テンプレート名を入力してください。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateNameDuplicate">テンプレート名は重複できません。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_GlossaryTermIncomplete">用語対応の原文と訳文の両方を入力してください。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateDefaultLabel">既定</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateInheritDefaultGlossary">共通用語集を継承</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Translate_Bilibili_TemplateDefaultRequired">既定の翻訳テンプレートを残してください。</sys:String>
+</ResourceDictionary>

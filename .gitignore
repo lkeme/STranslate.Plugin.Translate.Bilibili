@@ -1,0 +1,75 @@
+# ------------------- .NET / MSBuild -------------------
+bin/
+obj/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tlog
+*.binlog
+*.lastbuildstate
+*.cache
+*.swp
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+!**/packages/build/
+project.assets.json
+project.nuget.cache
+*.nuget.cache
+
+# Build / test artifacts
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+artifacts/
+publish/
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+*.VisualState.xml
+BenchmarkDotNet.Artifacts/
+
+# ------------------- Visual Studio / Rider / VS Code -------------------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.DotSettings.user
+*.VC.db
+*.VC.opendb
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.tmp
+*.bak
+*.orig
+
+# ------------------- OS junk -------------------
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ------------------- Plugin build output -------------------
+# `dotnet build` Release output to the repo-root `.artifacts` folder
+.artifacts/
+.dist/
+
+# ------------------- Rust -------------------
+target/

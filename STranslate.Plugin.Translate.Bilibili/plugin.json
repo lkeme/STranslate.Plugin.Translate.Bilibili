@@ -1,0 +1,10 @@
+{
+  "PluginID": "b8f4e2c19a7d4e6f8c3b1a2d5e7f9012",
+  "Name": "Bilibili Index-Translate",
+  "Description": "Bilibili Index-Translate plugin for STranslate",
+  "Author": "Lkeme",
+  "Version": "1.0.6",
+  "Website": "https://github.com/Lkeme/STranslate.Plugin.Translate.Bilibili",
+  "ExecuteFileName": "STranslate.Plugin.Translate.Bilibili.dll",
+  "IconPath": "icon.png"
+}
